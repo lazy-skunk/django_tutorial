@@ -12,3 +12,8 @@ $ docker-compose exec app bash
 $ docker-compose stop
 $ docker-compose down --rmi all
 ```
+
+## Python
+```
+$ python manage.py runserver
+```
