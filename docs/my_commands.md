@@ -14,6 +14,18 @@ $ docker-compose down --rmi all
 ```
 
 ## Python
-```
+``` python
 $ python manage.py runserver
+$ python manage.py check
+
+# DB
+# Modify model.py
+$ python manage.py makemigrations APP_NAME
+$ python manage.py migrate
+```
+
+## sqlite3
+```
+$ sqlite3 db.sqlite3
+$ .tables
 ```
