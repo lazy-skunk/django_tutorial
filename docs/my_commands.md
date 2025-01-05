@@ -17,6 +17,7 @@ $ docker-compose down --rmi all
 ``` python
 $ python manage.py runserver
 $ python manage.py check
+$ python manage.py shell
 
 # DB
 # Modify model.py
